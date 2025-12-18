@@ -774,7 +774,7 @@ body {
 .rating-label:hover,
 .rating-group input[type="radio"]:checked ~ .rating-label,
 .rating-group input[type="radio"]:checked + .rating-label {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .checkbox-group {
