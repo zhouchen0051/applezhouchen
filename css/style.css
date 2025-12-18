@@ -757,6 +757,7 @@ body {
     gap: var(--spacing-sm);
     flex-direction: row-reverse;
     justify-content: flex-end;
+    flex-direction: column;
 }
 
 .rating-group input[type="radio"] {
