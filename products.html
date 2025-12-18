@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="浏览所有 Apple 产品：iPhone、iPad、Mac、AirPods 和 Vision Pro">
+    <title>Apple - 产品列表</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="主导航">
+            <div class="container">
+                <div class="nav-content">
+                    <a href="index.html" class="logo" aria-label="Apple 首页">
+                        <span class="logo-icon">🍎</span>
+                        <span class="logo-text">Apple</span>
+                    </a>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">首页</a></li>
+                        <li><a href="products.html" class="nav-link active">产品</a></li>
+                        <li><a href="feedback.html" class="nav-link">反馈</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+                            <span class="theme-icon">🌙</span>
+                        </button>
+                        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="切换移动菜单">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-header">
+            <div class="container">
+                <h1 class="page-title">所有产品</h1>
+                <p class="page-subtitle">探索 Apple 的完整产品线</p>
+            </div>
+        </section>
+
+        <section class="products-filters" aria-label="产品筛选">
+            <div class="container">
+                <div class="filters-container">
+                    <div class="search-box">
+                        <input 
+                            type="search" 
+                            id="searchInput" 
+                            placeholder="搜索产品..." 
+                            aria-label="搜索产品"
+                            class="search-input"
+                        >
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-category="all">全部</button>
+                        <button class="filter-btn" data-category="iPhone">iPhone</button>
+                        <button class="filter-btn" data-category="iPad">iPad</button>
+                        <button class="filter-btn" data-category="Mac">Mac</button>
+                        <button class="filter-btn" data-category="AirPods">AirPods</button>
+                        <button class="filter-btn" data-category="Vision">Vision</button>
+                        <button class="filter-btn" data-category="Watch">Watch</button>
+                        <button class="filter-btn" data-category="Accessories">配件</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-list" aria-label="产品列表">
+            <div class="container">
+                <div class="products-grid" id="productsGrid">
+                    <!-- 动态加载 -->
+                </div>
+                <div class="no-results" id="noResults" style="display: none;">
+                    <p>未找到匹配的产品</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于 Apple</h3>
+                    <p>我们致力于创造最好的产品，让每个人都能享受科技带来的便利。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="products.html">产品</a></li>
+                        <li><a href="feedback.html">反馈</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系我们</h3>
+                    <p>邮箱: support@apple.com</p>
+                    <p>电话: 400-666-8800</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Apple Inc. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

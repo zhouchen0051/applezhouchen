@@ -1,0 +1,340 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 16 Pro",
+      "category": "iPhone",
+      "price": "$999",
+      "description": "最强大的 iPhone 摄像头系统。钛金属设计。A18 Pro 芯片。USB-C。",
+      "specs": {
+        "display": "6.3英寸 Super Retina XDR",
+        "chip": "A18 Pro 芯片",
+        "camera": "48MP 主摄像头系统",
+        "storage": "128GB / 256GB / 512GB / 1TB",
+        "battery": "最长23小时视频播放",
+        "colors": ["钛金属原色", "钛金属蓝色", "钛金属白色", "钛金属黑色"]
+      },
+      "image": "img/iphone16pro.png"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 16",
+      "category": "iPhone",
+      "price": "$799",
+      "description": "A18 仿生芯片。48MP 主摄像头。USB-C 接口。动态岛。",
+      "specs": {
+        "display": "6.1英寸 Super Retina XDR",
+        "chip": "A16 仿生芯片",
+        "camera": "48MP 主摄像头",
+        "storage": "128GB / 256GB / 512GB",
+        "battery": "最长20小时视频播放",
+        "colors": ["粉色", "黄色", "绿色", "蓝色", "黑色"]
+      },
+      "image": "img/iphone16.png"
+    },
+    {
+      "id": 3,
+      "name": "iPad Air",
+      "category": "iPad",
+      "price": "$599",
+      "description": "M2 芯片。11英寸 Liquid Retina 显示屏。支持 Apple Pencil 和妙控键盘。",
+      "specs": {
+        "display": "11英寸 Liquid Retina",
+        "chip": "M2 芯片",
+        "storage": "64GB / 128GB / 256GB / 512GB / 1TB",
+        "camera": "12MP 超广角前置摄像头",
+        "battery": "最长10小时",
+        "colors": ["蓝色", "紫色", "粉色", "星光色", "深空灰色"]
+      },
+      "image": "img/ipadair.png"
+    },
+    {
+      "id": 4,
+      "name": "MacBook Air",
+      "category": "Mac",
+      "price": "$1099",
+      "description": "M3 芯片。13.6英寸 Liquid Retina 显示屏。长达18小时电池续航。",
+      "specs": {
+        "display": "13.6英寸 Liquid Retina",
+        "chip": "M3 芯片",
+        "memory": "8GB / 16GB / 24GB",
+        "storage": "256GB / 512GB / 1TB / 2TB",
+        "battery": "最长18小时",
+        "colors": ["午夜色", "星光色", "深空灰色", "银色"]
+      },
+      "image": "img/macbookair.png"
+    },
+    {
+      "id": 5,
+      "name": "AirPods Pro",
+      "category": "AirPods",
+      "price": "$249",
+      "description": "主动降噪。自适应音频。USB-C 充电盒。空间音频。",
+      "specs": {
+        "audio": "主动降噪和自适应音频",
+        "battery": "最长6小时（开启降噪）",
+        "charging": "USB-C",
+        "features": ["空间音频", "动态头部追踪", "IPX4 防水"],
+        "colors": ["白色"]
+      },
+      "image": "img/airpodspro.png"
+    },
+    {
+      "id": 6,
+      "name": "Apple Vision Pro",
+      "category": "Vision",
+      "price": "$3499",
+      "description": "空间计算设备。双 Micro OLED 显示屏。M2 和 R1 芯片。",
+      "specs": {
+        "display": "双 Micro OLED",
+        "chip": "M2 和 R1 芯片",
+        "storage": "256GB / 512GB / 1TB",
+        "camera": "12 个摄像头和传感器",
+        "battery": "最长2小时",
+        "features": ["空间音频", "眼球追踪", "手势控制"]
+      },
+      "image": "img/visionpro.png"
+    },
+    {
+      "id": 7,
+      "name": "iPhone 16e",
+      "category": "iPhone",
+      "price": "$599",
+      "description": "经济实惠的 iPhone。A16 仿生芯片。出色的摄像头系统。",
+      "specs": {
+        "display": "6.1英寸 Liquid Retina",
+        "chip": "A18 仿生芯片",
+        "camera": "双摄像头系统",
+        "storage": "128GB / 256GB",
+        "battery": "最长19小时视频播放",
+        "colors": ["黑色", "白色", "蓝色", "红色"]
+      },
+      "image": "img/iphone_16e__dar81seif0cy_large.jpg",
+      "gallery": [
+        "img/iphone_16e__dar81seif0cy_large.jpg",
+        "img/modal_new__b7jvgmgpb37m_large.jpg",
+        "img/modal_camera__f389jji00bee_large.jpg"
+      ],
+      "features": [
+        {
+          "title": "强大性能",
+          "description": "A16 仿生芯片带来流畅体验",
+          "image": "img/modal_power__cevo1nv24qz6_large.jpg"
+        },
+        {
+          "title": "出色摄像头",
+          "description": "捕捉生活中的每一个精彩瞬间",
+          "image": "img/modal_camera__f389jji00bee_large.jpg"
+        },
+        {
+          "title": "持久续航",
+          "description": "全天候使用，无需担心电量",
+          "image": "img/modal_long_lasting__baxfhotph1gi_large.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "iPhone 17",
+      "category": "iPhone",
+      "price": "$899",
+      "description": "下一代 iPhone。A19 仿生芯片。革命性的摄像头系统。",
+      "specs": {
+        "display": "6.3英寸 Super Retina XDR",
+        "chip": "A19 仿生芯片",
+        "camera": "48MP 主摄像头系统",
+        "storage": "128GB / 256GB / 512GB / 1TB",
+        "battery": "最长22小时视频播放",
+        "colors": ["钛金属原色", "钛金属蓝色", "钛金属白色", "钛金属黑色", "钛金属金色"]
+      },
+      "image": "img/iphone_17__ck7zzemcw37m_large.jpg",
+      "gallery": [
+        "img/iphone_17__ck7zzemcw37m_large.jpg",
+        "img/modal_new__b7jvgmgpb37m_large.jpg",
+        "img/modal_delight__i0qklyn8nii6_large.jpg",
+        "img/modal_stunning__d5whljci7v0i_large.jpg"
+      ],
+      "features": [
+        {
+          "title": "创新设计",
+          "description": "全新的设计语言，更加优雅",
+          "image": "img/modal_innovation__46sbsa80fhem_large.jpg"
+        },
+        {
+          "title": "智能体验",
+          "description": "AI 驱动的智能功能",
+          "image": "img/modal_supersmart__gdssqz659my6_large.jpg"
+        },
+        {
+          "title": "视觉智能",
+          "description": "强大的图像处理能力",
+          "image": "img/modal_visual_intelligence__db4wb0gyrxqq_large.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "iPhone 17 Pro",
+      "category": "iPhone",
+      "price": "$1199",
+      "description": "专业级 iPhone。A19 Pro 芯片。专业摄像头系统。",
+      "specs": {
+        "display": "6.7英寸 Super Retina XDR ProMotion",
+        "chip": "A19 Pro 芯片",
+        "camera": "48MP 三摄像头系统",
+        "storage": "256GB / 512GB / 1TB / 2TB",
+        "battery": "最长25小时视频播放",
+        "colors": ["钛金属原色", "钛金属蓝色", "钛金属白色", "钛金属黑色"]
+      },
+      "image": "img/iphone_17pro__0s6piftg70ym_large.jpg",
+      "gallery": [
+        "img/iphone_17pro__0s6piftg70ym_large.jpg",
+        "img/modal_action_button__nje2lljsf3u6_large.jpg",
+        "img/modal_zoom__dr6qr7qwc18i_large.jpg",
+        "img/modal_movies__gl7spw4j3xyu_large.jpg"
+      ],
+      "features": [
+        {
+          "title": "操作按钮",
+          "description": "可自定义的操作按钮，提升效率",
+          "image": "img/modal_action_button__nje2lljsf3u6_large.jpg"
+        },
+        {
+          "title": "专业摄像",
+          "description": "电影级视频拍摄能力",
+          "image": "img/modal_movies__gl7spw4j3xyu_large.jpg"
+        },
+        {
+          "title": "超强变焦",
+          "description": "专业级光学变焦系统",
+          "image": "img/modal_zoom__dr6qr7qwc18i_large.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "iPhone Air",
+      "category": "iPhone",
+      "price": "$699",
+      "description": "轻薄设计。强大性能。完美平衡。",
+      "specs": {
+        "display": "6.1英寸 Liquid Retina",
+        "chip": "A17 仿生芯片",
+        "camera": "双摄像头系统",
+        "storage": "128GB / 256GB / 512GB",
+        "battery": "最长20小时视频播放",
+        "colors": ["星光色", "深空灰色", "蓝色", "粉色"]
+      },
+      "image": "img/iphone_air__f0t56fef3oey_large.jpg",
+      "gallery": [
+        "img/iphone_air__f0t56fef3oey_large.jpg",
+        "img/modal_ease__5852shn412qy_large.jpg",
+        "img/modal_delight__i0qklyn8nii6_large.jpg"
+      ],
+      "features": [
+        {
+          "title": "轻薄设计",
+          "description": "超薄机身，轻盈便携",
+          "image": "img/modal_ease__5852shn412qy_large.jpg"
+        },
+        {
+          "title": "流畅体验",
+          "description": "A17 芯片带来流畅性能",
+          "image": "img/modal_power__cevo1nv24qz6_large.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Apple Watch",
+      "category": "Watch",
+      "price": "$399",
+      "description": "健康伴侣。智能助手。全天候陪伴。",
+      "specs": {
+        "display": "Always-On Retina 显示屏",
+        "chip": "S9 芯片",
+        "sensors": "心率、血氧、体温传感器",
+        "battery": "最长18小时",
+        "connectivity": "GPS + 蜂窝网络",
+        "colors": ["午夜色", "星光色", "红色", "蓝色"]
+      },
+      "image": "img/watch__fxtwpvwdf3mi_large.jpg",
+      "gallery": [
+        "img/watch__fxtwpvwdf3mi_large.jpg",
+        "img/modal_on_track__ffuiyrxtiyum_large.jpg",
+        "img/modal_safety__faiti3j3g0mm_large.jpg"
+      ],
+      "features": [
+        {
+          "title": "健康追踪",
+          "description": "全面监测您的健康状况",
+          "image": "img/modal_on_track__ffuiyrxtiyum_large.jpg"
+        },
+        {
+          "title": "安全保障",
+          "description": "紧急求救和碰撞检测",
+          "image": "img/modal_safety__faiti3j3g0mm_large.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "MacBook Pro",
+      "category": "Mac",
+      "price": "$1999",
+      "description": "专业级性能。M3 Pro 芯片。专业创作工具。",
+      "specs": {
+        "display": "14.2英寸 Liquid Retina XDR",
+        "chip": "M3 Pro 芯片",
+        "memory": "18GB / 36GB",
+        "storage": "512GB / 1TB / 2TB / 4TB",
+        "battery": "最长22小时",
+        "colors": ["深空灰色", "银色"]
+      },
+      "image": "img/mac__gmrv6vyz8x6q_large.jpg",
+      "gallery": [
+        "img/mac__gmrv6vyz8x6q_large.jpg",
+        "img/modal_innovation__46sbsa80fhem_large.jpg",
+        "img/chip__6hy1uruuluaa_large.jpg"
+      ],
+      "features": [
+        {
+          "title": "强大芯片",
+          "description": "M3 Pro 芯片带来专业级性能",
+          "image": "img/chip__6hy1uruuluaa_large.jpg"
+        },
+        {
+          "title": "专业创作",
+          "description": "为专业创作者打造",
+          "image": "img/modal_innovation__46sbsa80fhem_large.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "AirTag",
+      "category": "Accessories",
+      "price": "$29",
+      "description": "精确查找。轻松追踪。丢失物品的好帮手。",
+      "specs": {
+        "battery": "可更换 CR2032 电池",
+        "range": "蓝牙范围约 100 米",
+        "water_resistance": "IP67 防水防尘",
+        "battery_life": "约1年",
+        "colors": ["白色"]
+      },
+      "image": "img/airtag__es9mk1eqbm2q_large.jpg",
+      "gallery": [
+        "img/airtag__es9mk1eqbm2q_large.jpg",
+        "img/modal_reassurance__dgemw59kaeeu_large.jpg"
+      ],
+      "features": [
+        {
+          "title": "精确查找",
+          "description": "使用精确查找功能定位物品",
+          "image": "img/modal_reassurance__dgemw59kaeeu_large.jpg"
+        }
+      ]
+    }
+  ]
+}

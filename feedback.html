@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="向我们提供反馈意见">
+    <title>Apple - 反馈</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="主导航">
+            <div class="container">
+                <div class="nav-content">
+                    <a href="index.html" class="logo" aria-label="Apple 首页">
+                        <span class="logo-icon">🍎</span>
+                        <span class="logo-text">Apple</span>
+                    </a>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">首页</a></li>
+                        <li><a href="products.html" class="nav-link">产品</a></li>
+                        <li><a href="feedback.html" class="nav-link active">反馈</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+                            <span class="theme-icon">🌙</span>
+                        </button>
+                        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="切换移动菜单">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="feedback-section" aria-label="反馈表单">
+            <div class="container">
+                <div class="feedback-content">
+                    <div class="feedback-header">
+                        <h1 class="page-title">联系我们</h1>
+                        <p class="page-subtitle">您的意见对我们很重要，请告诉我们您的想法</p>
+                    </div>
+                    <form class="feedback-form" id="feedbackForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">姓名 <span class="required">*</span></label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                required
+                                aria-required="true"
+                                aria-describedby="name-error"
+                            >
+                            <span class="error-message" id="name-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">邮箱 <span class="required">*</span></label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                required
+                                aria-required="true"
+                                aria-describedby="email-error"
+                            >
+                            <span class="error-message" id="email-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">电话</label>
+                            <input 
+                                type="tel" 
+                                id="phone" 
+                                name="phone"
+                                pattern="[0-9]{10,11}"
+                                aria-describedby="phone-error"
+                            >
+                            <span class="error-message" id="phone-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product">相关产品</label>
+                            <select id="product" name="product">
+                                <option value="">请选择产品</option>
+                                <option value="iPhone">iPhone</option>
+                                <option value="iPad">iPad</option>
+                                <option value="Mac">Mac</option>
+                                <option value="AirPods">AirPods</option>
+                                <option value="Vision">Vision</option>
+                                <option value="Watch">Watch</option>
+                                <option value="Accessories">配件</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="rating">满意度评分 <span class="required">*</span></label>
+                            <div class="rating-group" role="radiogroup" aria-label="满意度评分">
+                                <input type="radio" id="rating5" name="rating" value="5" required>
+                                <label for="rating5" class="rating-label">⭐⭐⭐⭐⭐</label>
+                                <input type="radio" id="rating4" name="rating" value="4" required>
+                                <label for="rating4" class="rating-label">⭐⭐⭐⭐</label>
+                                <input type="radio" id="rating3" name="rating" value="3" required>
+                                <label for="rating3" class="rating-label">⭐⭐⭐</label>
+                                <input type="radio" id="rating2" name="rating" value="2" required>
+                                <label for="rating2" class="rating-label">⭐⭐</label>
+                                <input type="radio" id="rating1" name="rating" value="1" required>
+                                <label for="rating1" class="rating-label">⭐</label>
+                            </div>
+                            <span class="error-message" id="rating-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">反馈内容 <span class="required">*</span></label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                rows="5" 
+                                required
+                                aria-required="true"
+                                aria-describedby="message-error"
+                                placeholder="请详细描述您的反馈意见..."
+                            ></textarea>
+                            <span class="error-message" id="message-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">订阅我们的新闻通讯</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">提交反馈</button>
+                        
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            <p>✓ 感谢您的反馈！我们已经收到您的消息。</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于 Apple</h3>
+                    <p>我们致力于创造最好的产品，让每个人都能享受科技带来的便利。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="products.html">产品</a></li>
+                        <li><a href="feedback.html">反馈</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系我们</h3>
+                    <p>邮箱: support@apple.com</p>
+                    <p>电话: 400-666-8800</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Apple Inc. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/feedback.js"></script>
+</body>
+</html>

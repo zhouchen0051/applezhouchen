@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="探索 Apple 创新产品：iPhone、iPad、Mac、AirPods 和 Apple Vision Pro">
+    <title>Apple - 首页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="主导航">
+            <div class="container">
+                <div class="nav-content">
+                    <a href="index.html" class="logo" aria-label="Apple 首页">
+                        <span class="logo-icon">🍎</span>
+                        <span class="logo-text">Apple</span>
+                    </a>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link active">首页</a></li>
+                        <li><a href="products.html" class="nav-link">产品</a></li>
+                        <li><a href="feedback.html" class="nav-link">反馈</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <button class="theme-toggle" id="themeToggle" aria-label="切换主题">
+                            <span class="theme-icon">🌙</span>
+                        </button>
+                        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="切换移动菜单">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-label="主横幅">
+            <div class="hero-content">
+                <h1 class="hero-title">创新重新定义</h1>
+                <p class="hero-subtitle">探索 Apple 的产品生态，体验科技与设计的完美融合</p>
+                <a href="products.html" class="btn btn-primary">浏览产品</a>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <section class="featured-products" aria-label="特色产品">
+            <div class="container">
+                <h2 class="section-title">热门产品</h2>
+                <div class="products-grid" id="featuredProducts">
+                    <!-- 动态加载 -->
+                </div>
+            </div>
+        </section>
+
+        <section class="categories" aria-label="产品分类">
+            <div class="container">
+                <h2 class="section-title">探索我们的产品系列</h2>
+                <div class="categories-grid">
+                    <article class="category-card">
+                        <div class="category-icon">📱</div>
+                        <h3>iPhone</h3>
+                        <p>强大的性能，出色的摄像头，创新的设计</p>
+                        <a href="products.html?category=iPhone" class="category-link">了解更多 →</a>
+                    </article>
+                    <article class="category-card">
+                        <div class="category-icon">💻</div>
+                        <h3>iPad</h3>
+                        <p>便携性、性能和创造力的完美结合</p>
+                        <a href="products.html?category=iPad" class="category-link">了解更多 →</a>
+                    </article>
+                    <article class="category-card">
+                        <div class="category-icon">🖥️</div>
+                        <h3>Mac</h3>
+                        <p>专业级性能，轻薄设计</p>
+                        <a href="products.html?category=Mac" class="category-link">了解更多 →</a>
+                    </article>
+                    <article class="category-card">
+                        <div class="category-icon">🎧</div>
+                        <h3>AirPods</h3>
+                        <p>无线音频，主动降噪，完美音质</p>
+                        <a href="products.html?category=AirPods" class="category-link">了解更多 →</a>
+                    </article>
+                    <article class="category-card">
+                        <div class="category-icon">🥽</div>
+                        <h3>Vision</h3>
+                        <p>空间计算，沉浸式体验</p>
+                        <a href="products.html?category=Vision" class="category-link">了解更多 →</a>
+                    </article>
+                    <article class="category-card">
+                        <div class="category-icon">⌚</div>
+                        <h3>Watch</h3>
+                        <p>健康追踪，智能助手</p>
+                        <a href="products.html?category=Watch" class="category-link">了解更多 →</a>
+                    </article>
+                    <article class="category-card">
+                        <div class="category-icon">🔗</div>
+                        <h3>配件</h3>
+                        <p>完美配件，提升体验</p>
+                        <a href="products.html?category=Accessories" class="category-link">了解更多 →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于 Apple</h3>
+                    <p>我们致力于创造最好的产品，让每个人都能享受科技带来的便利。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="products.html">产品</a></li>
+                        <li><a href="feedback.html">反馈</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系我们</h3>
+                    <p>邮箱: support@apple.com</p>
+                    <p>电话: 400-666-8800</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Apple Inc. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

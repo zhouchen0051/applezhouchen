@@ -1,0 +1,29 @@
+apple-website/
+│
+├── index.html
+├── products.html
+├── product-detail.html
+├── feedback.html
+│
+├── css/
+│   ├── style.css
+│   └── responsive.css
+│
+├── js/
+│   ├── main.js
+│   ├── products.js
+│   ├── product-detail.js
+│   └── feedback.js
+│
+├── img/
+│   ├── iphone15pro.png
+│   ├── iphone15.png
+│   ├── ipadair.png
+│   ├── macbookair.png
+│   ├── airpodspro.png
+│   └── visionpro.png
+│
+├── data/
+│   └── products.json
+│
+└── README.md
